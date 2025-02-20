@@ -5,3 +5,14 @@ body{
 .container{
     height: 100vh;
 }
+
+h1{
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 3px 2px maroon;
+}
