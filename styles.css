@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(63, 6, 116);
+    background-color: #283149;
+    text-align: center;
 }
 
 .container{
@@ -11,14 +12,29 @@ h1{
     font-weight: 500;
     font-style: normal;
     font-size: 100px;
-    text-align: center;
-    margin-top: 10px;
-    color: #fff;
-    text-shadow: 3px 2px maroon;
+    margin-top: 5%;
+    color: #DBEDF3;
+    text-shadow: 3px 3px #DA0463;
 }
 
-.btn-container{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10%;
+.set {
+    margin: 10% auto;
 }
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+  
