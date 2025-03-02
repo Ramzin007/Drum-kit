@@ -3,7 +3,17 @@ for(var i=0;i<numberOfDrumButton;i++)
 {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         var buttonInnerHTML=this.innerHTML;
-        switch(buttonInnerHTML)
+        makeSound(buttonInnerHTML);
+    })
+}
+
+document.addEventListener("keydown",function(event)
+{
+    makeSound(event.key);
+})
+
+function makeSound(key){
+    switch(key)
         {
             case "w":
                 var tom1 = new Audio("./sounds/tom-1.mp3");
@@ -42,5 +52,4 @@ for(var i=0;i<numberOfDrumButton;i++)
             
             default : console.log("wrong input!!")
         }
-    })
 }
